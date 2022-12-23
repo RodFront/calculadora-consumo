@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(45deg, cyan, yellow);
+    
+   
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 500px;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    
+}
+
+
+
+
+.inputUser{
+    outline: none;
+    display: flex;
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+label{
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+
+button{
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: blue;
+    color: azure;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 70%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+p{
+    font-size: 20px;
+    padding: 20px;
+    color: red;
+    text-align: center;
+}
+
+select{
+
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: blue;
+    color: azure;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 70%;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+#resul{
+    color: aliceblue;
+    
+}
+
+.texto{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.texto > h1{
+    font-style: italic;
+}

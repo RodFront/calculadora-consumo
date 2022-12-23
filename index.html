@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de KW/H</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+        
+   
+    <div class="box">
+
+        <div class="texto">
+            <h1>Calculadora de Consumo</h1>
+        </div>
+
+        <label>Horas por dia</label>
+        <input type="number" name="nome" id="hdias" class="inputUser">
+
+        <label>Dias por mês</label>
+        <input type="number" name="nome" id="dmes" class="inputUser">
+
+        <label>Selecione sua potência</label>
+
+        <select id="select">
+            <option value="678">7500 BTUS</option>
+            <option value="815">9000 BTUS</option>
+            <option value="1085">12000 BTUS</option>
+            <option value="1720">18000 BTUS</option>
+            <option value="1980">24000 BTUS</option>
+            <option value="2895">30000 BTUS</option>
+        </select>
+
+
+        <label>Valor do Kwh da sua cidade</label>
+        <input type="number" name="nome" id="kwhc" class="inputUser">
+        <button onclick="calcular()">CALCULAR</button>
+        <p id="resul"></p>
+        <p>Valores de consumo podem variar de acordo com o modo de operação. Os resultados apresentados são apenas uma estimativa, não representando o valor real que poderá ser gasto.</p>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
